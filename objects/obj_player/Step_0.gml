@@ -105,8 +105,7 @@ speed = f_speed;
 image_angle = dir; 
 
 //DEBUG
-show_debug_message(f_speed); 
-show_debug_message(dir); 
+println(f_speed, dir); 
 
 //SOUND
 if (key_forward && !boosting) {
