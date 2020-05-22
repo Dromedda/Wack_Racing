@@ -1,5 +1,6 @@
 if (place_meeting(x, y, obj_player)) {
 	if (!audio_is_playing(snd_finnish)) {
+		audio_stop_all(); 
 		audio_play_sound(snd_finnish, 1, false); 	
 	}
 	
